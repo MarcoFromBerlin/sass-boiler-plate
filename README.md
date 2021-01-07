@@ -70,6 +70,10 @@ to publish it be sure the git repo is already synced and then just run:
 npm run publish
 ```
 
+## Smooth Scrolling
+
+Smooth scrolling is on by default, to disable is go to base/\_root.scss
+
 ## How to use columns and rows
 
 By default for desktop:

@@ -38,7 +38,7 @@
 └── .gitignore
 ```
 
-## How to install
+## How to install
 
 Download and install it with:
 

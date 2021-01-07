@@ -43,6 +43,7 @@
                 <li><a href="#typography">Typography</a></li>
                 <li><a href="#icons-social">Social Icons</a></li>
                 <li><a href="#margins">Margins + Paddings</a></li>
+                <li><a href="#generals">Generals</a></li>
               </ul>
             </div>
           </div>
@@ -391,6 +392,90 @@
                &lt;div class=&quot;col-12 ph-1 pv-1&quot;&gt;
                 &lt;h4&gt;This is an example&lt;/h4&gt;
               &lt;/div&gt;
+                </code>
+              </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line-grey-3px"></div>
+      <a id="generals"></a>
+      <div id="generals">
+        <div class="generals mb-1">
+          <div class="row">
+            <div class="col-12 pt-1">
+              <h4>General features</h4>
+            </div>
+            <div class="col-12 margins-example ph-1 pv-1">
+              <h5 class="text-thin pb-1">Download and install it with:</h5>
+              <h5 class="text-thin pb-1">
+                <div class="text-code-light">npm i</div>
+              </h5>
+              <h5 class="text-thin pb-1">It will install</h5>
+              <h5 class="text-thin pb-1">
+                <div class="text-code-light">
+                  node-sass <br />gh-pages(as dev dependency)
+                </div>
+              </h5>
+              <h5 class="text-thin pb-1">
+                package.json contains the following scripts:
+              </h5>
+              <h5 class="text-thin pb-1">
+                <div class="text-code-light">
+                  "scripts": { <br />"sass": "node-sass --source-map
+                  dist/css/main.css.map --output-style compressed -w scss -o
+                  dist/css -- recursive ",<br />"publish": "gh-pages -d dist"<br />}
+                </div>
+              </h5>
+              <h5 class="text-thin pb-1">Therefore for sass:</h5>
+              <h5 class="text-thin pb-1">
+                <div class="text-code-light">npm run sass</div>
+              </h5>
+              <h5 class="text-thin pb-1">
+                To publish it be sure the git repo is already synced and then
+                just run:
+              </h5>
+              <h5 class="text-thin pb-1">
+                <div class="text-code-light">npm run publish</div>
+              </h5>
+              <div class="col-12 ph-1 pv-1">
+                <h5 class="text-thin">Files structure of the boiler plate</h5>
+              </div>
+              <div class="col-7 text-code-light text-black">
+                <pre class="line-numbers">
+                <code class="language-markup">
+├── dist (or build)
+│ ├── css
+│ │ ├── main.css
+│ │ ├── main.css.map
+│ ├── images
+│ ├── index.html
+├── scss
+│ ├── base
+│ │ ├── _reset.scss
+│ │ ├── _root.scss
+│ │ ├── _typography.scss
+│ ├── components
+│ │ ├── _buttons.scss
+│ │ ├── _decorations.scss
+│ │ ├── _forms.scss
+│ │ ├── _icons.scss
+│ │ ├── _menu.scss
+│ │ ├── _utilities.scss
+│ ├── sections (empty by default)
+│ │ ├── _section_name_example.scss
+│ ├── variables
+│ │ ├── _aligns.scss
+│ │ ├── _colors.scss
+│ │ ├── _variables.scss
+│ ├── _functions.scss
+│ ├── _media.scss
+│ ├── main.css
+├── README.md
+├── package-lock.json
+├── package.json
+└── .gitignore
                 </code>
               </pre>
               </div>
